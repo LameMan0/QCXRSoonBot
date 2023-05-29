@@ -1,11 +1,15 @@
 /**
- * @type {import('../../typings').LegacyCommand}
+ * @type {import('../../../typings').SlashInteractionCommand}
  */
-module.exports = {
-	name: "lameman",
-	// Refer to typings.d.ts for available properties.
+const embeds = require('../../../embeds.js');
 
-	execute(message, args) {
+
+module.exports = {
+    data: new SlashCommandBuilder()
+      .setName('lameman')
+      .setDescription('lameman'),
+  
+    async execute(interaction) {
 		message.channel.send({ content: "lameman..." });
 	},
 };
