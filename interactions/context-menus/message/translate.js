@@ -2,9 +2,10 @@ const { ContextMenuInteraction, MessageEmbed } = require('discord.js');
 const openai = require('openai');
 
 module.exports = {
-  name: 'Translate',
-  type: 'MESSAGE',
-
+  data: {
+    name: 'Translate',
+    type: 3, // 3 is for message context menus
+  },
   async execute(interaction) {
     if (!(interaction instanceof ContextMenuInteraction)) {
       return;
