@@ -1,4 +1,4 @@
-const { EmbedBuilder } = require('discord.js');
+const { ContextMenuInteraction, EmbedBuilder } = require('discord.js');
 const { Configuration, OpenAIApi } = require('openai');
 
 module.exports = {
