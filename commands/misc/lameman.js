@@ -1,7 +1,6 @@
 /**
  * @type {import('../../../typings').SlashInteractionCommand}
  */
-const embeds = require('../../../embeds.js');
 
 
 module.exports = {
