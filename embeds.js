@@ -3,7 +3,7 @@ const { EmbedBuilder, Embed } = require('discord.js');
 const embeds = {
     adb: new EmbedBuilder()
     .setTitle("**Uninstalling using ADB commands**")
-    .setDescription("If you're having an issue with uninstalling and need to perform a force uninstallation, Please make sure you are using [**Sidequest Advanced**](https://sidequestvr.com/setup-howto) as basic SideQuest wont work. Run the command: ``adb uninstall com.qcxr.qcxr``, as shown in the image below.")
+    .setDescription("If you're having an issue with uninstalling and need to perform a force uninstallation, Please make sure you are using **[Sidequest Advanced](https://sidequestvr.com/setup-howto)** as basic SideQuest wont work. Run the command: ``adb uninstall com.qcxr.qcxr``, as shown in the image below.")
     .setImage("https://media.discordapp.net/attachments/1059913125308145716/1111366186274390226/ADB.png?width=643&height=670")
     .setColor("Green")
     .setFooter({ text: 'Written by my Developers', iconURL: 'https://images-ext-1.discordapp.net/external/5cPanAYF2wOpIhmzrCkina2UpawRtHHU4y2KjFviqCI/%3Fsize%3D4096/https/cdn.discordapp.com/avatars/997670790604542012/92a28b5bb82c7512fe8711fa2fd63163.png?width=633&height=633'}),
@@ -15,7 +15,7 @@ const embeds = {
   
     developers: new EmbedBuilder()
     .setTitle("**🛠️ My Developers!**")
-    .setDescription("The current developers of CraftyXR are <@317814254336081930>, <@719815864135712799> and <@796512162855125022>! \nYou can checkout the full code of CraftyXR at the [GitHub repo](https://github.com/Cartrigger/QCXRSoonBot)")
+    .setDescription("The current developers of <@997670790604542012> are <@317814254336081930>, <@719815864135712799> and <@796512162855125022>! \nYou can checkout the full code of <@997670790604542012> at the [GitHub repo](https://github.com/Cartrigger/QCXRSupport)")
     .setColor("Green"),
   
     installation: new EmbedBuilder()
@@ -175,7 +175,7 @@ const embeds = {
   
     renderer_vulkan: new EmbedBuilder()
     .setTitle("**QuestCraft Vulkan Renderer**")
-    .setDescription("QuestCraft versions 4.0 and above will- in a future addition- support  the **Vulkan Renderer**.\nThe Vulkan renderer uses Vulkan (hence the name) to optimise the game rendering and significantly increase framerate, at the cost of mod compatibility.\n\nThis means that more complex mods, like [Create](https://www.curseforge.com/minecraft/mc-mods/create-fabric) will not work, and instead will crash.")
+    .setDescription("QuestCraft versions 4.1 and above will- in a future addition- support  the **Vulkan Renderer**.\nThe Vulkan renderer uses Vulkan (hence the name) to optimise the game rendering and significantly increase framerate, at the cost of mod compatibility, it will be toggleable.\n\nThis means that more complex mods, like [Create](https://www.curseforge.com/minecraft/mc-mods/create-fabric) will not work, and instead will crash.")
     .setColor("Orange")
     .setFooter({ text: 'Written by JaffaJace and my Contributors', iconURL: 'https://images-ext-1.discordapp.net/external/CNDjGEZxdZHTQQnmL43jjbUyilF1FNrpbwl4dzh1xhY/%3Fsize%3D4096/https/cdn.discordapp.com/avatars/654048865137459261/ec3ef49d087775eb2c26b10a4dc7c456.png?width=539&height=539'}),
   
